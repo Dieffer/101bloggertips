@@ -5,7 +5,7 @@
 // var spellCheckURL="http://localhost/jspell_proxy.asp"; // change to point to the JSpell Spell Check Servlet
 // var styleSheetURL="http://localhost/jspell.css"; 
 // var imagePath="http://localhost/images"; // relative URL to JSpell button images directory
-var spellCheckURL="/jspellhtml/JSpellAd.jsp"; // change to point to the JSpell Spell Check Servlet
+var spellCheckURL="/101bloggertipscheckspell/101bloggertipsAd.jsp"; // change to point to the JSpell Spell Check Servlet
 var styleSheetURL="/jspellhtml/jspell.css"; 
 var imagePath="/jspellhtml/images"; // relative URL to JSpell button images directory
 var jspellpopupurl="/jspellhtml/jspellpopup.html"; // specify location of jspellpopup.html
