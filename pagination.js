@@ -112,7 +112,7 @@ function loadtoc(json) {
 function filterPosts(filter) {
 // This function changes the filter
 // and displays the filtered list of posts
-  // document.getElementById("bp_toc").scrollTop = document.getElementById("bp_toc").offsetTop;;
+  // document.getElementById("101bloggertips").scrollTop = document.getElementById("101bloggertips").offsetTop;;
    postFilter = filter;
    displayToc(postFilter);
 } // end filterPosts
