@@ -1,5 +1,6 @@
- // global arrays
-var postTitle = new Array();     // array of posttitles
+// global arrays
+
+   var postTitle = new Array();     // array of posttitles
    var postUrl = new Array();       // array of posturls
    var postDate = new Array();      // array of post publish dates
    var postSum = new Array();       // array of post summaries
