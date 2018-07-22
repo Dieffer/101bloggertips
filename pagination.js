@@ -10,7 +10,7 @@ var postTitle = new Array();     // array of posttitles
    var tocLoaded = false;           // true if feed is read and ToC can be displayed
    var numChars = 250;              // number of characters in post summary
    var postFilter = '';             // default filter value
-   var tocdiv = document.getElementById("bp_toc"); //the toc container
+   var tocdiv = document.getElementById("101bloggertips"); //the toc container
    var totalEntires =0; //Entries grabbed till now
    var totalPosts =0; //Total number of posts in the blog.
 
