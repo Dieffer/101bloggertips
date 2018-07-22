@@ -1,3 +1,18 @@
+// ---------------------------------------------------
+// BLOGTOC
+// ---------------------------------------------------
+// BlogToc creates a clickable Table Of Contents for
+// Blogger Blogs.
+// It uses the JSON post feed, and create a ToC of it.
+// The ToC can be sorted by title or by date, both
+// ascending and descending, and can be filtered by
+// label.
+// ---------------------------------------------------
+// Author: Syed Faizan Ali
+// Url: http://www.mybloggerlab.com
+// Version: 2
+// Date: 2007-04-12
+// ---------------------------------------------------
 // global arrays
 
    var postTitle = new Array();     // array of posttitles
@@ -251,5 +266,5 @@ function hideToc() {
   var tocdiv = document.getElementById("toc");
   tocdiv.innerHTML = '';
   var toclink = document.getElementById("toclink");
-  toclink.innerHTML = '<a href="#" onclick="scroll(0,0); showToc(); Effect.toggle('+"'toc-result','blind');"+'">» Show Table of Contents</a> <img src="https://sites.google.com/site/chenkaieblog/new_1.gif"/>';
+  toclink.innerHTML = '<a href="#" onclick="scroll(0,0); showToc(); Effect.toggle('+"'toc-result','blind');"+'">» Show Table of Contents</a> <img src="http://chenkaie.blog.googlepages.com/new_1.gif"/>';
 }
