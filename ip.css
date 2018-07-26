@@ -1,0 +1,166 @@
+ 
+
+/*width:100%;*/
+
+/*overflow-x:hidden;*/
+ 
+
+input {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px black solid;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input:hover {
+    background-color: beige;
+}
+
+#search-button {
+    background-color: #0080ff;
+    color: white;
+}
+
+#search-button:hover {
+    /*
+    transition: color 0.25s linear;
+    text-shadow: 0 0 3px #555555;
+*/
+    color: black;
+    background-color: #00bfff;
+    /*    font-size: 150%;*/
+}
+
+ 
+ 
+
+/*content styles*/
+
+.maintext {
+    /*    color: ghostwhite;*/
+    text-emphasis: bold;
+    border-width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+    width: 610px;
+    border: 3px #CCCbCC;
+    margin-bottom: 20px;
+    background-image: url(transparent.jpg);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.maintext a {
+    color: bisque;
+}
+ 
+ 
+ 
+ 
+
+.main .searchsection p {
+    margin-bottom: 20px;
+}
+
+.main-links {
+    width: 610px;
+    margin: 60px auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+.main-links .info {
+    width: 49.5%;
+    background-image: url(transparent.jpg);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: inline-block;
+    vertical-align: top;
+
+}
+*/
+
+/*
+ 
+
+.main-links .info a,
+.main-links .shield a {
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.main-links .info img,
+.main-links .shield img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+ 
+    .main-links .info img,
+    .main-links .shield img {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:485px) {
+
+    /*
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1026px;
+    }
+*/
+    .main-links,
+    .secondary-content,
+    footer,
+    .maintext,
+    .main {
+        max-width: 95%;
+    }
+ 
+ 
+@media only screen and (max-width:416px) {
+    .main {
+        max-width: 87%;
+        height: 650px;
+
+    }
+    .main .searchsection {
+        max-width: 100%;
+    }
+    .main ol {
+        width: 80%;
+    }
+    .maintext {
+        max-width: 90%;
+    }
+    .main-links {
+        max-width: 90%;
+
+    }
+    .input {
+        width: 33%;
+    }
+    #search-button {
+        width: 33%;
+    }
+    .secondary-content .firstpart {
+        max-width: 48%;
+        /*        width: 35%;*/
+    }
+    .secondary-content .secondpart {
+        max-width: 48%;
+        /*        width: 35%;*/
+    }
+    .secondary-content {
+        max-width: 100%;
+    }
+ 
+ 
