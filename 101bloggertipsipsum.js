@@ -1,7 +1,7 @@
 /* ---------------
 mipsum.js v2.2.2
 --------------- */
-const mussumMainQuote = "";
+const mussumMainQuote ="";
 const mussumQuotes = [
   "Pra lá , depois divoltis porris, paradis.",
   "Paisis, filhis, espiritis santis.",
