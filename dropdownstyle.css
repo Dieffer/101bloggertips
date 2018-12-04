@@ -23,7 +23,7 @@ ul.dropdown li a.hover              { background: #F3D673; position: relative; }
 /* 
 	LEVEL TWO
 */
-ul.dropdown ul 						{ display: none; position: relative; top: 0; left: 0; width: 180px; z-index: 1000; }
+ul.dropdown ul 						{ display: none; position: absolute; top: 0; left: 0; width: 180px; z-index: 1000; }
 ul.dropdown ul li 					{ font-weight: normal; background: #f6f6f6; color: #000; border-bottom: 1px solid #ccc; }
 ul.dropdown ul li a					{ display: block; background: #eee !important; } 
 ul.dropdown ul li a:hover			{ display: block; background: #F3D673 !important; } 
