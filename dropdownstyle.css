@@ -13,7 +13,7 @@ h1                                  { margin: 0 0 10px 0; }
 	LEVEL ONE
 */
 ul.dropdown                         { position: relative; width: 100%; }
-ul.dropdown li                      { font-weight: bold; float: left; width: 180px; background: #ccc; position: relative; }
+ul.dropdown li                      { font-weight: bold; float: left; width: 180px; background: #ccc; position: absolute; }
 ul.dropdown a:hover		            { color: #000; }
 ul.dropdown li a                    { display: block; padding: 20px 8px; color: #222; position: relative; z-index: 2000; }
 ul.dropdown li a:hover,
